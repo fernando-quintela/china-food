@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="build/css/chinafood.css">
+  <title>sucursales</title>
+</head>
+<body>
+  
+<!-- <header> -->
+  <div class="container-fluid header " >
+
+    <div class="row  linea01 ">
+    <div class=" titulo   col-5  ">
+    <img src="img/logo-chinav2.png" alt="" class="logo-imagen";>
+    </div>
+  
+    <div class="logo-header col-7  ">
+    <span>China Food</span>
+    </div>
+    </div>
+    
+  
+    
+    <!--/navbar -->
+    <ul class="nav justify-content-evenly navar-china">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page"  href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active"  href="ubicacion.html">sucursales</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  disabled">Zona de despacho</a>
+      </li>
+    </ul>
+  <!--/<header> -->
+  </div>
+  
+  <hr class="mb-0">  
+
+  <main class="ubicacion-principal container-fluid ">
+
+    <div class="row ubi">
+         <!--1 card -->
+      <div class="card m-3" style="width: 21rem;">
+        <div class="card-body">
+          <h5 class="card-title">Alameda</h5>
+          <p class="card-text">Avenida Libertador Bernardo O'Higgins 3470, Santiago, Chile</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-info" data-bs-toggle="modal"     data-bs-target="#staticBackdrop-1">
+            ir a mapa
+            </button>
+        </div>
+      </div>
+         <!--2 card -->
+      <div class="card m-3" style="width: 21rem;">
+        <div class="card-body">
+          <h5 class="card-title">Costanera</h5>
+          <p class="card-text">Avenida Andrés Bello 2425, Providencia, Chile</p>
+          <!-- Button trigger modal -->
+           <button type="button" class="btn btn-info" data-bs-toggle="modal"     data-bs-target="#staticBackdrop-2">
+            ir a mapa
+            </button>
+        </div>
+      </div>
+         <!--3 card -->
+      <div class="card m-3" style="width: 21rem;">
+        <div class="card-body">
+          <h5 class="card-title">Arauco Maipu</h5>
+          <p class="card-text">Avenida Américo Vespucio 399, Maipú, Chile</p>
+          <!-- Button trigger modal -->
+           <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop-3">
+           ir a mapa
+           </button>
+        </div>
+      </div>
+
+      <!--1 Modal -->
+<div class="modal fade" id="staticBackdrop-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Alameda</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="display: block; width:100%; height: 450px;">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="383" height="441" id="gmap_canvas" src="https://maps.google.com/maps?q=Av%20Libertador%20Bernardo%20O'Higgins%203470&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;border:0;}</style><a href="https://www.embedgooglemap.net">create google map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+        </div>
+        
+
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<!--2 Modal -->
+<div class="modal fade" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Costanera</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="display: block; width:100%; height: 450px;">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="383" height="441" id="gmap_canvas" src="https://maps.google.com/maps?q=Avenida%20Andr%C3%A9s%20Bello%202425,%20Providencia,%20Chile&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net">create google map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<!--3 Modal -->
+<div class="modal fade" id="staticBackdrop-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Arauco Maipu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="display: block; width:100%; height: 450px;">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="383" height="441" id="gmap_canvas" src="https://maps.google.com/maps?q=Avenida%20Am%C3%A9rico%20Vespucio%20399,%20Maip%C3%BA,%20Chile&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net">create google map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </main>
+
+  <!-- footer -->
+
+ <footer class="text-center container-fluid text-lg-center" style="background-color: #f1f1f1;">
+
+  <!--Grid row-->
+  <div class="row">
+   <!--Grid column-->
+   <div class="col-lg-4 col-md-4 mb-3 mb-md-0 ">
+     <span class="logo-footer">China Food</span>
+   </div>
+   <!--Grid column-->
+ 
+   <!--Grid column-->
+   <div class="col-lg-4 col-md-4 mb-3 mb-md-0">
+     <h5 class="text-info mb-0">Conócenos</h5>
+ 
+     <ul class="list-unstyled">
+       <li>
+         <a href="#!" class="text-dark">Zona de despacho</a>
+       </li>
+       <li>
+         <a href="#!" class="text-dark">Trabaja con Nosotros</a>
+       </li>
+       <li>
+         <a href="#!" class="text-dark">Política de Privacidad</a>
+       </li>
+       <li>
+         <a href="#!" class="text-dark">Términos y Condiciones de Uso</a>
+       </li>
+     </ul>
+   </div>
+   <!--Grid column-->
+   <!--Grid column-->
+   <div class="col-lg-4 col-md-4 mb-3 mb-md-0">
+     <h5 class="text-info mb-0">Mi cuenta</h5>
+ 
+     <ul class="list-unstyled">
+       <li>
+         <a href="#!" class="text-dark">Pedir</a>
+       </li>
+       <li>
+         <a href="#!" class="text-dark">Iniciar sesión</a>
+       </li>
+       
+   </div>
+   <!--Grid column-->
+ 
+   <!-- Grid container -->
+   <div class="container pt-4">
+     <!-- Section: Social media -->
+     <section class="mb-4">
+       <!-- Facebook -->
+       <a
+         class="btn btn-link btn-floating btn-lg text-dark m-1"
+         href="#!"
+         role="button"
+         data-mdb-ripple-color="dark"
+         ><i class="fab fa-facebook-f"></i
+       ></a>
+ 
+       <!-- Twitter -->
+       <a
+         class="btn btn-link btn-floating btn-lg text-dark m-1"
+         href="#!"
+         role="button"
+         data-mdb-ripple-color="dark"
+         ><i class="fab fa-twitter"></i
+       ></a>
+ 
+       <!-- Google -->
+       <a
+         class="btn btn-link btn-floating btn-lg text-dark m-1"
+         href="#!"
+         role="button"
+         data-mdb-ripple-color="dark"
+         ><i class="fab fa-google"></i
+       ></a>
+ 
+     
+       <!-- Github -->
+       <a
+         class="btn btn-link btn-floating btn-lg text-dark m-1"
+         href="#!"
+         role="button"
+         data-mdb-ripple-color="dark"
+         ><i class="fab fa-github"></i
+       ></a>
+     </section>
+     <!-- /Section: Social media -->
+   </div>
+   <!-- /Grid container -->
+ 
+   <!-- Copyright -->
+   <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+     © 2020 Copyright:
+     <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+   </div>
+   <!-- Copyright -->
+ </footer>
+ 
+  <!-- /footer -->
+
+
+
+  <script src="https://kit.fontawesome.com/3f05d2095a.js" crossorigin="anonymous"></script>
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

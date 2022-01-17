@@ -1,0 +1,30 @@
+// nuestras variables
+$rojo: red;
+$verde: rgb(41, 180, 41);
+$negro: rgb(32, 29, 29);
+$azul: rgb(120, 180, 214);
+
+// rescribir boostrap
+$primary: $rojo;
+$secondary: $verde;
+$success: $negro;
+$info: $azul;
+
+// tipografia
+$display-font-weight: 900;
+$heading-font-weight: 700;
+
+//modal
+$modal-dialog-margin-y-sm-up: 5rem;
+
+// nav
+$nav-link-font-weight: 800;
+$nav-link-color:  $secondary;
+$nav-link-font-size: 1.7rem;
+
+$nav-link-hover-color:  $success;
+
+$btn-border-width:     $success;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

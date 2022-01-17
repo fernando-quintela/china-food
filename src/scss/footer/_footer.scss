@@ -1,0 +1,19 @@
+@use '../custom';
+
+footer{
+    margin:0;
+    padding:0 0;
+    box-sizing: border-box;
+  
+  .logo-footer{
+    display: inline-block;
+    font-size: 4rem;
+    font-family:'Rubik'; 
+    font-weight:700;
+    text-shadow: 2px 4px 6px rgb(65, 128, 2);
+    color: yellow;
+    width: 8rem;
+   
+    
+  }
+}

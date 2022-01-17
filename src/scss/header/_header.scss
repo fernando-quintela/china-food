@@ -1,0 +1,77 @@
+@use '../custom';
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+ .header{  
+      .logo-imagen{
+       align-items: center;
+       width:18rem;
+       @include custom.media-breakpoint-down(sm){
+        width: 8rem;
+      }
+    }
+
+ 
+
+  .logo-header{
+    margin-top: 2rem;
+     span{
+      align-items: center;
+      width: 2rem;
+      font-size: 4rem;
+      // width: 2rem;
+      font-family:'Rubik'; 
+      font-weight:700;
+      text-shadow: 2px 4px 6px rgb(65, 128, 2);
+      color: yellow;
+      @include custom.media-breakpoint-down(sm){
+      font-size: 2rem;
+      }
+     }
+   }
+
+  // .navar-china{
+  //   a{
+  //     .active{
+  //      color: gold;
+  //     }
+  //   }
+
+  // }
+ 
+
+   .titulo-oferta{
+    h1{
+    text-align: center;
+    font-family:'Cairo';
+    font-weight:800;
+
+    }
+   }
+ }
+
+ .carousel{ 
+    max-width: 70%;
+    margin: auto;
+    @include custom.media-breakpoint-down(md){
+    max-width: 100%;
+    
+    }
+  
+  .carousel-item{
+   img{
+    max-height: 22rem;
+    @include custom.media-breakpoint-down(sm){
+    max-height: 30rem;
+    }
+  }
+ }
+
+ }
+
+
+}

@@ -1,0 +1,59 @@
+@use '../custom';
+
+section{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+  
+  .eslogan{
+    
+    background-image: url(../../../img/dragon-eslogan.jpg);
+   background-position: center;
+   background-size:100%;
+   background-repeat: no-repeat;
+  //  background-attachment: fixed;
+  //  max-width:200rem;
+  justify-content: center;
+  min-height: 13rem;
+  
+  @include custom.media-breakpoint-down(md){
+    background-size:cover;
+   background-position:50%;
+
+  }
+  
+
+   
+  p{
+    text-align: center;
+    font-family:'Rubik';
+    font-weight:700;
+    font-size: 2.5rem;
+    @include custom.media-breakpoint-down(md){
+    font-size: 1.5rem;
+      
+     
+    }
+  } 
+  }
+
+  .recomendacion{
+    h2{
+      text-shadow:chartreuse 4px 3px 7px ;
+    }
+  }
+
+  .recomendaciones-card{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    @include custom.media-breakpoint-down(md){
+      
+     
+    }
+    
+
+  }
+}
+

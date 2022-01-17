@@ -1,0 +1,112 @@
+@use '../custom';
+
+
+.platos{
+  padding: 0;
+  min-height: 25rem;
+  max-height: 25rem;
+}
+
+// lista-nnn {
+//  li{
+//    margin: 1rem 2rem;
+//    a{
+//      font-size: 5rem;
+//    }
+//  }
+// }
+
+.menu-pricipal{
+  background-image: url(../../../img/dragon-fondo-de-pantalla.jpg);
+  background-size: cover;
+  background-clip:border-box ;
+  background-attachment: fixed;
+  
+  display: flex;
+  
+  
+}
+
+.titulo_menu_1{
+  margin: 1.5rem 1.5rem;
+  color: rgb(223, 41, 41);
+  text-align: center;
+}
+
+
+.ubicacion-principal{
+  
+
+background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+padding: 3rem 2rem;
+box-sizing: border-box;
+
+// .container-fluid{
+//   justify-content:center;
+// }
+
+.ubi{
+  justify-content: center;
+}
+.mapouter{
+  width: 100% auto;
+}
+
+}
+
+
+
+
+
+// <div class="card mb-3 " style="max-width: 450px;">
+//         <div class="row g-0 ">
+//           <div class="col-md-4  dupa  ">
+//             <img src="img/carne mongoliana.webp" class="img-fluid  " alt="...">
+//           </div>
+//           <div class="col-md-8">
+//             <div class="card-body text-center ">
+//               <h5 class="card-title ">carne mongoliana</h5>
+//               <p class="card-text  ">Carne de res, salteadas con cebollines frescos y verduras seleccionadas aderezadas con </p>
+//               <p class="card-text"><strong class="text-muted">$ 5.900</strong></p>
+
+//               <!-- Button trigger modal -->
+//               <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+//                 descripcion
+//               </button>
+
+//               <!-- Modal -->
+//               <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+//                 aria-hidden="true">
+//                 <div class="modal-dialog">
+//                   <div class="modal-content">
+//                     <div class="modal-header">
+//                       <h5 class="modal-title" id="exampleModalLabel">Carne mongoliana</h5>
+//                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+//                     </div>
+//                     <div class="modal-body row">
+//                       <div class="col-6">
+//                          <img src="img/carne mongoliana.webp" alt="" class="img-fluid">
+//                       </div>
+//                       <div class="col-6">
+//                         <p>Carne de res, salteadas con cebollines frescos y verduras seleccionadas aderezadas con salsa soya y especies orientales.</p>
+//                         <div class="fs-4 fw-bold">$ 5.900</div>
+//                       </div>
+                      
+//                     </div>
+//                     <div class="modal-footer bg-info">
+                      
+//                       <button type="button" class="btn btn-secondary">Agregar al caro</button>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             <!--/ Modal -->
+              
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       <!-- /cards -->
